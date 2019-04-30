@@ -1,0 +1,12 @@
+<h1>My Quotes</h1>
+<hr>
+<div class="containers">
+  <div class="row">
+    <app-quote-form (addQuote)="addNewGoal($event)"></app-quote-form>
+<ul>
+  <div *ngFor='let quote of quotes;let i=index'>
+    <li>{{quote.name}}</li>
+  
+  </div>
+  </ul>
+  <p *ngIf='quotes.length>5'>You have too many quotes.Delete some</p>

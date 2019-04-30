@@ -22,8 +22,10 @@
       <div class="form-group">
         <label for ="complete">Completion</label>
         <input type="date" id="complete" required>
-
-      
+        
+        <div [hidden]="entry_date.valid || entry_date.pristine" class="alert alert-danger">
+          <p>Quote entry date is required</p>
+      </div>
 
       </div>
       <button type="submit" class="btn btn-success btn-lg">Add Quote</button>

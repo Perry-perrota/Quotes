@@ -2,3 +2,13 @@
 .homepage{
   background-image: url("assets/background.jpg");
 }
+.describe{
+  font-style: italic;
+  font-family: fantasy;
+}
+.heading{
+  text-align: center;
+}
+input{
+  border-radius: 10px;
+}

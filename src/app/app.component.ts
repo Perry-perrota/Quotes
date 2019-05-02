@@ -14,4 +14,5 @@ export class AppComponent {
     new Quote('Niklaus','Always and forever',new Date(2018,5,17),0,"Perry Obara"),
     new Quote('Thanos','Run from it,Destiny arrives all the same',new Date(2018,6,14),0,"Perry Obara"),
   ]
+  
 }

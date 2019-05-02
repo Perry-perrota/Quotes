@@ -12,14 +12,7 @@ export class QuoteFormComponent implements OnInit {
     submitQuote(){
       this.addQuote.emit(this.newQuote);
     }
-  @Output() voteFor=new EventEmitter<boolean>();
-  quoteUpvote(complete:boolean){
-    this.voteFor.emit(complete);
-  }
-  @Output() voteNot=new EventEmitter<boolean>();
-  quoteDownvote(complete:boolean){
-    this.voteNot.emit(complete);
-  }
+
 
   constructor() { }
 

@@ -12,19 +12,19 @@
       </div>
       <div class="form-group">
         <label for ="description">Description</label>
-        <textarea class="form-control" id="description" [(ngModel)]="newQuote.description" name="description" rows="4" required></textarea>
+        <textarea class="form-control" id="description" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
 
 
       </div>
       <div class="form-group">
         <label for ="complete">Completion</label>
-        <input type="date" id="complete" name="entry_date" required>
+        <input type="date" id="complete" [(ngModel)]="newQuote.entry_date" name="entry_date" #entry_date="ngModel" required>
 
 
       </div>
       <div class="form-group">
         <label for ="submission">Submitted by who</label>
-        <input type="text" id="submission" [(ngModel)]="newQuote.submission" name="submission" required>      
+        <input type="text" id="submission" [(ngModel)]="newQuote.submission" name="submission" #submission="ngModel" required>
 
       </div>
       <button type="submit" class="btn btn-success btn-lg">Add Quote</button>

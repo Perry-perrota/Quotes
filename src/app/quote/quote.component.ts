@@ -15,7 +15,8 @@ export class QuoteComponent implements OnInit {
   ]
   toogleDetails(index){
     this.quotes[index].showDescription= !this.quotes[index].showDescription;
-  }
+  }  
+
     deleteQuote(isComplete,index){
       if(isComplete){
         let toDelete=confirm('Are you sure you want to delete ')
@@ -28,6 +29,7 @@ export class QuoteComponent implements OnInit {
         quote.entry_date=new Date(quote.entry_date)
         this.quotes.push(quote)
       }
+
   constructor() { }
 
   ngOnInit() {

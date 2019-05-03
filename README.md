@@ -4,6 +4,19 @@
 This app allows a user to keep track of quotes.The details include the Quote itself,author of quotes as well as when the quote was posted.
 
  -[The link to the website is](https://perry-perrota.github.io/Quotes/)
+ 
+ #### Requirements 
+ * A chrome web browser
+ * Atom for viewing the code
+ * A terminal with npm and angular installed
+ * An internet connection
+ 
+ #### Technologies used
+ * Angular JS
+ * Typescript
+ * HTML
+ * CSS
+ * Bootstrap
 
 #### BDD
 * A user accesses the website
@@ -12,11 +25,12 @@ This app allows a user to keep track of quotes.The details include the Quote its
 * The user has to enter the following values Author of Quote,The quote,the user who is posting as well as the Date
 * The quotes will be then be displayed as input.
 * The quotes can be further managed by allowing the user to delete quotes that are no longer needed
-| Action       | Result       | Effect  |
-| ------------- |:-------------:| -----:|
-| Click on Toggle Details      | Display added information to the specific quote| Display Delete button and quotes description|
-| Click on Delete     | Prompts the user to confirm deletion      |   Deletes the specific quote |
-| Click on Add Quotes | Updates form inputs to the app and displays them alongside |adds a list of items to the screen  |
+
+  | Action       | Result       | Effect  |
+  | ------------- |:-------------:| -----:|
+  | Click on Toggle Details| Display added information to the specific quote| Display Delete button and quotes description|
+  | Click on Delete     | Prompts the user to confirm deletion      |   Deletes the specific quote |
+  | Click on Add Quotes | Updates form inputs to the app and displays them alongside |adds a list of items to the screen  |
 
 
 ####Bugs
@@ -43,7 +57,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-####Contacts
+#### Contacts
 * perryobara@gmail.complete
 * 0728678161
 ### License
